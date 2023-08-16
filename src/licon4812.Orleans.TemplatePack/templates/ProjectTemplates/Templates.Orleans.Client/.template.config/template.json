@@ -4,7 +4,7 @@
   "classifications": [ "Orleans", "Console", "ASP.NET" ],
   "identity": "licon4812.Orleans.Client",
   "name": "Orleans Templates: Orleans Client project with ASP.Net",
-  "shortName": "orleans-host",
+  "shortName": "orleans-client",
   "tags": {
     "language": "C#",
     "type": "project"
