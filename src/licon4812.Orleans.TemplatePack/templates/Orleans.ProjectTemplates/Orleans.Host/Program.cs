@@ -1,4 +1,5 @@
-﻿using Orleans.Providers;
+﻿using Orleans.Configuration;
+using Orleans.Providers;
 using Orleans.Runtime;
 
 namespace Orleans.Host
@@ -11,6 +12,12 @@ namespace Orleans.Host
 
             builder.Host.UseOrleans(siloBuilder =>
             {
+                // Configure your cluster and service information
+                siloBuilder.Configure<ClusterOptions>(options =>
+                {
+                    options.ClusterId = "dev"; // Set your ClusterId
+                    options.ServiceId = "orleans"; // Set your ServiceId
+                });
                 // Use localhost clustering by default
                 siloBuilder.UseLocalhostClustering();
                 // Setup memory as the grain storage - Add your own providers as required
