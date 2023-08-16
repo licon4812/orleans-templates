@@ -1,7 +1,7 @@
 ﻿using Orleans.Configuration;
 using Orleans.Runtime;
 
-namespace Orleans.Client
+namespace Templates.Orleans.Client
 {
     internal class Program
     {

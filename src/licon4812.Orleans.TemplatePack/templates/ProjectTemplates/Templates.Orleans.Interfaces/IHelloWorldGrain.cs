@@ -1,6 +1,6 @@
 ﻿using Orleans;
 
-namespace Orleans.Interfaces
+namespace Templates.Orleans.Interfaces
 {
     public interface IHelloWorldGrain : IGrainWithStringKey
     {
