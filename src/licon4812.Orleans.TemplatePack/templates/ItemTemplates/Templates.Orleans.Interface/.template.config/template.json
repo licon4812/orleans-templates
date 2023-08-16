@@ -5,7 +5,7 @@
   "identity": "licon4812.Templates.Orleans.Interface",
   "name": "Orleans Templates: Orleans Interface",
   "shortName": "orleans-interface",
-  "sourceName": "licon4812.Templates.Orleans.Interface",
+  "sourceName": "IGrain",
   "preferNameDirectory": true,
   "tags": {
     "language": "C#",

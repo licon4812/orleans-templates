@@ -5,7 +5,7 @@
   "identity": "licon4812.Templates.Orleans.Host",
   "name": "Orleans Templates: Orleans Host project with ASP.Net",
   "shortName": "orleans-host",
-  "sourceName": "licon4812.Templates.Orleans.Host",
+  "sourceName": "Orleans.Host",
   "preferNameDirectory": true,
   "tags": {
     "language": "C#",

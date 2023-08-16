@@ -5,7 +5,7 @@
   "identity": "licon4812.Templates.Orleans.Client",
   "name": "Orleans Templates: Orleans Client project with ASP.Net",
   "shortName": "orleans-client",
-  "sourceName": "licon4812.Templates.Orleans.Client",
+  "sourceName": "Orleans.Client",
   "preferNameDirectory": true,
   "tags": {
     "language": "C#",
