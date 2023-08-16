@@ -2,7 +2,7 @@
 using Orleans;
 using Orleans.Runtime;
 
-namespace licon4812.Orleans.Templates.Grains
+namespace Orleans.Grains
 {
     public class HelloWorldGrain : Grain, IHelloWorldGrain
     {

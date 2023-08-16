@@ -3,7 +3,7 @@ using Orleans;
 using Orleans.Runtime;
 using System.Threading.Tasks;
 
-namespace licon4812.Orleans.Templates.Grain
+namespace Grain
 {
     public class HelloWorldGrain : Grain, IHelloWorldGrain
     {

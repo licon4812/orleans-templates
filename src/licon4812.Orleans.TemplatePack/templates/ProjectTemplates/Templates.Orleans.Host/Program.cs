@@ -2,7 +2,7 @@
 using Orleans.Providers;
 using Orleans.Runtime;
 
-namespace licon4812.Orleans.Templates.Host
+namespace Orleans.Host
 {
     internal class Program
     {
