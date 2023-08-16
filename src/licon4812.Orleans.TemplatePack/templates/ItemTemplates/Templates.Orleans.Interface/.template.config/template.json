@@ -1,0 +1,12 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "James Alickolli - Jeremy Carter",
+  "classifications": [ "Orleans", "Interface" ],
+  "identity": "licon4812.Templates.Orleans.Interface",
+  "name": "Orleans Templates: Orleans Interface",
+  "shortName": "orleans-interface",
+  "tags": {
+    "language": "C#",
+    "type": "item"
+  }
+}
