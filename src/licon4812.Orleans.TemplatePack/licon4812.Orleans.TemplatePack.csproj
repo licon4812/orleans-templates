@@ -8,7 +8,7 @@
 		<Authors>licon4812 - Jeremy Carter</Authors>
 		<Description>Templates to use when creating Microsoft Orleans framework.</Description>
 		<PackageTags>c#, orleans</PackageTags>
-
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<TargetFramework>netstandard2.0</TargetFramework>
 
 		<IncludeContentInPack>true</IncludeContentInPack>
@@ -21,5 +21,9 @@
 	<ItemGroup>
 		<Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
 		<Compile Remove="**\*" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md" Pack="true" PackagePath="\"/>
 	</ItemGroup>
 </Project>
