@@ -5,6 +5,8 @@
   "identity": "licon4812.Templates.Orleans.Grain",
   "name": "Orleans Templates: Orleans Grain",
   "shortName": "orleans-grain",
+  "sourceName": "licon4812.Templates.Orleans.Grain",
+  "preferNameDirectory": true,
   "tags": {
     "language": "C#",
     "type": "item"

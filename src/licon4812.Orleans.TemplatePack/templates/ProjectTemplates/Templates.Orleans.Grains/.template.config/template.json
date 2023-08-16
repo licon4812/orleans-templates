@@ -1,10 +1,12 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "James Alickolli - Jeremy Carter",
-  "classifications": [ "Orleans", "Grains"],
-  "identity": "licon4812.Orleans.Grains",
+  "classifications": [ "Orleans", "Grains" ],
+  "identity": "licon4812.Templates.Orleans.Grains",
   "name": "Orleans Templates: Orleans Grains project",
   "shortName": "orleans-grains",
+  "sourceName": "licon4812.Templates.Orleans.Grains",
+  "preferNameDirectory": true,
   "tags": {
     "language": "C#",
     "type": "project"
